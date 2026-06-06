@@ -4,7 +4,7 @@ public class Dog extends Pet implements Animal {
 	
 	Dog(String n)
 	{
-		super(n);//I am writing this to create a conflict
+		super(n);//This is calling parent constructor
 	}
 	
 	@Override
